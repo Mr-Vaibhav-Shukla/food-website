@@ -1,0 +1,8 @@
+#mainMenu .nav-link {
+    color: #17a2bb;
+}
+#mainMenu .nav-link:hover {
+    color: white;
+    background-color: #17a2bb;
+    border-radius: 5px;
+}
