@@ -6,3 +6,17 @@
     background-color: #17a2bb;
     border-radius: 5px;
 }
+#mainMenu .active {
+    color: white;
+    background-color: #17a2bb;
+    border-radius: 5px;
+}
+
+#about-us {
+    text-align: justify;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}

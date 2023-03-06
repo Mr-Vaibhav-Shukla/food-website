@@ -12,27 +12,30 @@
 
 <body>
     <header>
+
+        <!-- navbar -->
         <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
             <div class="container">
                 <a class="navbar-brand"><img src="img/logo.png" alt="" width="250"></a>
                 <div id="mainMenu">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li><a class="nav-link" href="">Home</a></li>
+                        <li><a class="nav-link active" href="">Home</a></li>
                         <li><a class="nav-link" href="">About</a></li>
                         <li><a class="nav-link" href="">Work</a></li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Project
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Project
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <li><a class="dropdown-item" href="">Dropdown Menu</a></li>
-                              <li><a class="dropdown-item" href="">Dropdown Menu</a></li>
-                              <li><a class="dropdown-item" href="">Dropdown Menu</a></li>
-                              <li><a class="dropdown-item" href="">Dropdown Menu</a></li>
-                              <li><a class="dropdown-item" href="">Dropdown Menu</a></li>
-                    
+                                <li><a class="dropdown-item" href="">Dropdown Menu</a></li>
+                                <li><a class="dropdown-item" href="">Dropdown Menu</a></li>
+                                <li><a class="dropdown-item" href="">Dropdown Menu</a></li>
+                                <li><a class="dropdown-item" href="">Dropdown Menu</a></li>
+                                <li><a class="dropdown-item" href="">Dropdown Menu</a></li>
+
                             </ul>
-                          </li>
+                        </li>
                         <li><a class="nav-link" href="">Services</a></li>
                         <li><a class="nav-link" href="">Contact Us</a></li>
                     </ul>
@@ -40,7 +43,146 @@
             </div>
         </nav>
     </header>
-    <main></main>
+    <main>
+
+        <!-- carosel area -->
+        <div id="carouselExampleFade" class="carousel slide carousel-fade pb-3" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/banner_01.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/banner_02.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/banner_03.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- about us  -->
+        <div id="about-us" class="pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 align-self-center">
+                        <h2>About Us</h2>
+                        <h6>What we do?</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repellat asperiores
+                            facilis. Nam sed reprehenderit cupiditate mollitia quas ducimus ipsum commodi velit unde
+                            quaerat autem quae praesentium quibusdam porro, rem adipisci maiores. Ipsa magnam harum
+                            adipisci nisi similique excepturi officiis labore ad autem numquam, aut tenetur temporibus
+                            eligendi nostrum culpa doloremque alias reiciendis facere libero a, velit distinctio. Libero
+                            vero aliquam quod blanditiis, magnam omnis nisi earum culpa porro nihil laborum nemo vitae
+                            corporis vel cupiditate, maxime laboriosam! Quae possimus et facilis odit delectus ipsa
+                            explicabo vitae rerum officia iste, maiores reiciendis. Error enim saepe veritatis
+                            laudantium dolore expedita ratione?
+                        </p>
+                        <a href="" class="btn btn-info">Learn More</a>
+                    </div>
+                    <div class="col-md-6 align-self-md-center">
+                        <img src="img/about.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- work area  -->
+        <section id="work-area" class="pb-5">
+            <div class="container">
+                <row>
+                    <div class="offset-md-2 col-md-8 text-center">
+                        <h2>How we work?</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, eius.</p>
+                    </div>
+                </row>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="img/banner_01.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-info">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="img/banner_01.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-info">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="img/banner_01.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-info">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contactus">
+            <div class="container">
+                <div class="row">
+                    <div class="offset-md-2 col-md-8 text-center">
+                        <h2>Contact Us</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, illum!</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="offset-md-2 col-md-8">
+                        <form>
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput" class="form-label">Example label</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
+                              </div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput2" class="form-label">Another label</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
+                              </div>
+                              <div class="mb-3">
+                                <label for="formGroupExampleInput2" class="form-label">Another label</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
+                              </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            </div>col-md-8
+        </section>
+    </main>
     <footer></footer>
     <script src="js/bootstrap.min.js"></script>
 </body>
