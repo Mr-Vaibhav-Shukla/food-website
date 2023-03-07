@@ -10,7 +10,7 @@
     <title>Document</title>
 </head>
 
-<body>
+<body data-bs-spy="scroll" data-bs-target="#mainMenu">
     <header>
 
         <!-- navbar -->
@@ -19,9 +19,9 @@
                 <a class="navbar-brand"><img src="img/logo.png" alt="" width="250"></a>
                 <div id="mainMenu">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li><a class="nav-link active" href="">Home</a></li>
-                        <li><a class="nav-link" href="">About</a></li>
-                        <li><a class="nav-link" href="">Work</a></li>
+                        <li><a class="nav-link active" href="#carouselExampleFade">Home</a></li>
+                        <li><a class="nav-link" href="#about-us">About</a></li>
+                        <li><a class="nav-link" href="#work-area">Work</a></li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
@@ -37,7 +37,7 @@
                             </ul>
                         </li>
                         <li><a class="nav-link" href="">Services</a></li>
-                        <li><a class="nav-link" href="">Contact Us</a></li>
+                        <li><a class="nav-link" href="#contactus">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
@@ -97,7 +97,7 @@
         </div>
 
         <!-- work area  -->
-        <section id="work-area" class="pb-5">
+        <section id="work-area" class="pt-5 pb-5">
             <div class="container">
                 <row>
                     <div class="offset-md-2 col-md-8 text-center">
@@ -144,43 +144,84 @@
             </div>
         </section>
 
-        <section id="contactus">
-            <div class="container">
-                <div class="row">
-                    <div class="offset-md-2 col-md-8 text-center">
+        <!-- contact area -->
+        <section id="contactus" class="pt-5 pb-5" style="background-image: url('img/map.jpg'); width: 100%; height: auto;">
+            <div class="container ">
+                <div class="row p-5">
+                    <div class="offset-md-2 col-md-8 text-center bg-light p-4">
                         <h2>Contact Us</h2>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, illum!</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="offset-md-2 col-md-8">
-                        <form>
+                        <form class="p-3 text-start">
                             <div class="mb-3">
-                                <label for="formGroupExampleInput" class="form-label">Example label</label>
-                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
-                              </div>
-                            <div class="mb-3">
-                                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp">
-                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
-                                </div>
+                                <label for="formGroupExampleInput" class="form-label">Your Name</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput"
+                                    placeholder="Enter Your Name">
                             </div>
                             <div class="mb-3">
-                                <label for="formGroupExampleInput2" class="form-label">Another label</label>
-                                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
-                              </div>
-                              <div class="mb-3">
-                                <label for="formGroupExampleInput2" class="form-label">Another label</label>
-                                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
-                              </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                                <label for="exampleInputEmail1" class="form-label">Your Email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="Enter Your Email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput2" class="form-label">Your Phone</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput2"
+                                    placeholder="Enter Your Phone">
+                            </div>
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput2" class="form-label">Your Message</label>
+                                <textarea class="form-control" aria-label="With textarea" cols="30" rows="8"
+                                    placeholder="Enter Your Message "></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-info">Submit</button>
                         </form>
                     </div>
                 </div>
             </div>
+        </section>
 
-            </div>col-md-8
+        <!-- footer  -->
+        <section id="footer">
+            <div class="container">
+                <div class="row m-4">
+                    <div class="col-md-3">
+                        <img style="width: 100%;" src="img/logo.png" alt="" >
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae, quaerat magni. Quidem incidunt fugit, pariatur assumenda beatae.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h3>Our Products</h3>
+                        <ul  class="list-unstyled">
+                            <li><a class="mb-2" href="">Some Product Name</a></li>
+                            <li><a class="mb-2" href="">Some Product Name</a></li>
+                            <li><a class="mb-2" href="">Some Product Name</a></li>
+                            <li><a class="mb-2" href="">Some Product Name</a></li>
+                            <li><a class="mb-2" href="">Some Product Name</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h3>Quick Link</h3>
+                        <ul class="list-unstyled">
+                            <li><a class="mb-2" href="">Some Product Name</a></li>
+                            <li><a class="mb-2" href="">Some Product Name</a></li>
+                            <li><a class="mb-2" href="">Some Product Name</a></li>
+                            <li><a class="mb-2" href="">Some Product Name</a></li>
+                            <li><a class="mb-2" href="">Some Product Name</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <form action="">
+                            <h3>Search Here</h3>
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="Search Here" aria-label="Search Here" aria-describedby="basic-addon2">
+                                <span class="input-group-text bg-info" id="basic-addon2">Search</span>
+                              </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="container offset-md-2 col-md-8 text-center p-2">
+                <p>Copyright Text. All rights reserved.</p>
+            </div>
         </section>
     </main>
     <footer></footer>

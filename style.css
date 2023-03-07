@@ -20,3 +20,12 @@ img{
     width: 100%;
     height: auto;
 }
+
+#footer ul a {
+    color: #262626;
+    text-decoration: none;
+    line-height: 30px;
+}
+#footer ul a:hover {
+    color: #17a2bb;
+}
